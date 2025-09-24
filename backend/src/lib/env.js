@@ -11,15 +11,3 @@ export const ENV = {
   EMAIL_FROM_NAME: process.env.EMAIL_FROM_NAME
 }
 
-// PORT = 3000
-// MONGO_URI=mongodb+srv://horsewhite446_db_user:dyfsnka3GfhSAFEj@cluster0.915a32f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-// NODE_ENV = development
-
-// JWT_SECRET = myjwtsecret
-
-// RESEND_API_KEY = re_AS3DdsWg_8npBUF5scHf4QqSARBH3CAxd
-
-// EMAIL_FROM = "onboarding@resend.dev"
-// EMAIL_FROM_NAME = "Mahmoud Salem"
-
-// CLEINT_URL=http://localhost:5173
