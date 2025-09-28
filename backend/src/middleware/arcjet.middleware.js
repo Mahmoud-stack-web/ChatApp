@@ -12,15 +12,16 @@ export const arcjetProtection = async (req, res, next) => {
         return res.status(403).json({ message: "Bot access denied." });
       } else {
         return res.status(403).json({
-          message: "Access denied by security policy."
+          message: "Access denied by security policy.",
         });
       }
     }
 
+    // check for spoofed bots
     if (decision.results.some(isSpoofedBot)) {
       return res.status(403).json({
         error: "Spoofed bot detected",
-        message: "Malicious bot activity detected."
+        message: "Malicious bot activity detected.",
       });
     }
 
