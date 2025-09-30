@@ -1,3 +1,9 @@
 {
   "postman.settings.dotenv-detection-notification-visibility": false,
+  "[css]": {
+  "editor.formatOnSave": false
 }
+
+}
+
+
